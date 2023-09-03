@@ -8,16 +8,16 @@ const {
 } = require('../Controllers/blogController');
 
 // Create Blog API
-router.get('/blog/create', createBlog);
+router.post('/blog/create', createBlog);
 
 // Read Blog API
 router.get('/blog/read', readBlog);
 
 // Delete Blog API
-router.get('/blog/delete', deleteBlog);
+router.delete('/blog/delete', deleteBlog);
 
 // Update Blog API
-router.get('/blog/update', updateBlog);
+router.put('/blog/update', updateBlog);
 
 // Repeat the above pattern for all 10 controllers and their respective functions
 
