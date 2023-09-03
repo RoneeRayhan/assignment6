@@ -1,4 +1,4 @@
-// Example code for blogController.js
+// Example code for blogDetailsController.js
 exports.create = async (req, res) => {
     res.send("Create BlogDetails API");
   };
